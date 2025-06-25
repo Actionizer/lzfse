@@ -20,5 +20,5 @@ jobs:
     - name: upload the entire thing
       uses: actions/upload-artifact@v4
       with:
-        name: dir
-        path: .
+        name: Build
+        path: ./build
